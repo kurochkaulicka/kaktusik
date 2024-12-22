@@ -36,6 +36,27 @@ body{
     transition: 0.3s all linear;
 }
 
+.g1 {
+    text-decoration: none;
+    color: #F2EED7;
+    padding: 0 15px;
+    font-weight: bold;
+    font-size:  16px;
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    font-weight: 700;
+    font-family: 'Roboto';
+
+}
+.g1:hover {
+    text-shadow: 0px 0px 50px #051d05;
+    transition: 0.3s all linear;
+}
+
 .banner{
     height: 90vh;
     background-image: url(img/photo.png);
@@ -76,10 +97,6 @@ footer{
     padding-left: 10px;
 }
 
-.kaktus_img{
-    width: 300px;
-    height: 300px;
-}
 
 .kaktuses{
     background-color: #626F47;
@@ -101,6 +118,8 @@ footer{
 }
 
 .kaktus_img{
+    width: 300px;
+    height: 300px;
     padding: 10px;
 }
 
@@ -120,3 +139,45 @@ footer{
     background-color: #F2EED7;
     border-radius: 25PX;
 }
+
+
+.kaktus1{
+    width: 360px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+.kaktus_imgg{
+    margin: 10px;
+    width: 75px;
+    height: 75px;
+    margin-right: 10px;
+    border: #051d05 1px  solid;
+    display: block;
+    border-radius: 25PX;
+}
+
+.kaktus_namee{
+    white-space: nowrap;
+    font-size: 30px;
+    color: #051d05;
+    padding: 10px;
+    border: #051d05 1px  solid;
+    background-color: #F2EED7;
+    border-radius: 25PX;
+}
+
+.moo {
+    background-color: #626F47;
+}
+
+.line1{
+    color: #FEFAE0;
+}
+
